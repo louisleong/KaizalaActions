@@ -1,0 +1,16 @@
+{
+	"questions": [
+		{
+			"title": "Rating",
+			"type": "Numeric"
+		},
+		{
+			"title": "Comments",
+			"type": "Text"
+		}
+	],
+	"title": "Ask Feedback",
+	"visibility": "All",
+	"isAnonymous": false,
+	"isResponseAppended": false
+}
