@@ -1,0 +1,35 @@
+{
+  "id": "com.microsoft.louisleong.pushschedule",
+  "schemaVersion": 1,
+  "displayName": "Push Schedule",
+  "providerName": "Microsoft",
+  "icon": "AppIcon.png",
+  "version": "1",
+  "minorVersion": "3",
+  "appModel": "AppModel.json",
+  "description": "Push Schedule",
+  "dials": {
+    "isLocalised": false,
+    "isPinned": false
+  },
+  "views": {
+    "ChatCanvasCardView": {
+      "labelResponseSending": "Sending your resposne",
+      "labelResponseFailed": "Failed sending your response",
+      "labelResponded": "Response sent",
+      "isResponseEditable": false
+    },
+    "CreationView": {
+      "sourceLocation": "CreationView.html",
+      "showNativeToolbar": false
+    },
+    "ResponseView": {
+      "sourceLocation": "Response.html",
+      "showNativeToolbar": false
+    },
+    "ResponseResultsView": {
+      "sourceLocation": "ResponseSummary.html",
+      "showNativeToolbar": false
+    }
+  }
+}
